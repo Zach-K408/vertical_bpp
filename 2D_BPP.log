@@ -90,3 +90,314 @@ Solution count 1: 0
 
 Optimal solution found (tolerance 1.00e-03)
 Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 15:43:09 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1260 rows, 714 columns and 3380 nonzeros
+Model fingerprint: 0x2455eefd
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -28997.00000
+Presolve removed 1260 rows and 714 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -36689 -28997 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:17:20 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1260 rows, 714 columns and 3380 nonzeros
+Model fingerprint: 0x2455eefd
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -28997.00000
+Presolve removed 1260 rows and 714 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -36689 -28997 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:17:58 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1260 rows, 714 columns and 3380 nonzeros
+Model fingerprint: 0x2455eefd
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -28997.00000
+Presolve removed 1260 rows and 714 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -36689 -28997 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:18:34 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1260 rows, 714 columns and 3380 nonzeros
+Model fingerprint: 0x2455eefd
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -28997.00000
+Presolve removed 1260 rows and 714 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -36689 -28997 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:29:29 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1260 rows, 714 columns and 3380 nonzeros
+Model fingerprint: 0x2455eefd
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -28997.00000
+Presolve removed 1260 rows and 714 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -36689 -28997 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:38:42 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1215 rows, 714 columns and 3335 nonzeros
+Model fingerprint: 0xbb6f4f43
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 661 rows and 582 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:45:29 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1215 rows, 714 columns and 3575 nonzeros
+Model fingerprint: 0x38a3cfcb
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 472 rows and 366 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 16:46:13 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1180 rows, 714 columns and 3299 nonzeros
+Model fingerprint: 0xf717407a
+Variable types: 87 continuous, 627 integer (627 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 17:23:15 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1180 rows, 804 columns and 3391 nonzeros
+Model fingerprint: 0xa7b9e281
+Variable types: 87 continuous, 717 integer (717 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 639 rows and 659 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 18:28:17 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1180 rows, 804 columns and 3391 nonzeros
+Model fingerprint: 0xa7b9e281
+Variable types: 87 continuous, 717 integer (717 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 639 rows and 659 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 18:31:06 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1180 rows, 804 columns and 3391 nonzeros
+Model fingerprint: 0xa7b9e281
+Variable types: 87 continuous, 717 integer (717 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 639 rows and 659 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
