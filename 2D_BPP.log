@@ -401,3 +401,35 @@ Solution count 0
 
 Model is infeasible
 Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Sun Apr 30 18:35:23 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1170 rows, 804 columns and 3381 nonzeros
+Model fingerprint: 0x22388468
+Variable types: 87 continuous, 717 integer (717 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective -2697.000000
+Presolve removed 996 rows and 682 columns
+Presolve time: 0.01s
+Presolved: 174 rows, 122 columns, 510 nonzeros
+Variable types: 20 continuous, 102 integer (102 binary)
+Found heuristic solution: objective -36689.00000
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: -36689 -2697 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%
