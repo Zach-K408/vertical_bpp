@@ -2,7 +2,10 @@
 Minimize
   - 4900 p[0,1] - 4094 p[1,1] - 1536 p[2,1] - 2697 p[3,1] - 6156 p[4,1]
    - 5700 p[5,1] - 1764 p[6,1] - 4600 p[7,1] - 3172 p[8,1] - 2070 p[9,1]
-   + 0 u[0] + 0 a[0] + 29760 u[1] + a[1]
+   + 0 u[0] + 0 a[0] + 29760 u[1] + a[1] + 0 s_ik[0,0] + 0 s_ik[1,1]
+   + 0 s_ik[2,2] + 0 s_ik[3,3] + 0 s_ik[4,4] + 0 s_ik[5,5] + 0 s_ik[6,6]
+   + 0 s_ik[7,7] + 0 s_ik[8,8] + 0 s_ik[9,9] + 0 f[0] + 0 f[1] + 0 f[2]
+   + 0 f[3] + 0 f[4] + 0 f[5] + 0 f[6] + 0 f[7] + 0 f[8] + 0 f[9]
 Subject To
  constraint_4: p[0,0] + p[0,1] = 1
  constraint_4: p[1,0] + p[1,1] = 1
@@ -760,183 +763,183 @@ Subject To
  constraint_32: g_ik[8,9] - v_ik[8,9] <= 0
  constraint_33: - 155 g_ik[8,9] + v_ik[8,9] <= 0
  constraint_34: - xp_ik[0,1] - xp_ki[1,0] + o_ik[0,1] <= 0
- constraint_34: xp_ik[0,1] + xp_ki[1,0] - 2 o_ik[0,1] <= 0
+ constraint_34: xp_ik[0,1] + xp_ki[1,0] - o_ik[0,1] <= 0
  constraint_35: - g_ik[0,1] - o_ik[0,1] - s_ik[0,1] <= -1
  constraint_35: g_ik[0,1] + o_ik[0,1] + 2 s_ik[0,1] <= 2
  constraint_34: - xp_ik[0,2] - xp_ki[2,0] + o_ik[0,2] <= 0
- constraint_34: xp_ik[0,2] + xp_ki[2,0] - 2 o_ik[0,2] <= 0
+ constraint_34: xp_ik[0,2] + xp_ki[2,0] - o_ik[0,2] <= 0
  constraint_35: - g_ik[0,2] - o_ik[0,2] - s_ik[0,2] <= -1
  constraint_35: g_ik[0,2] + o_ik[0,2] + 2 s_ik[0,2] <= 2
  constraint_34: - xp_ik[0,3] - xp_ki[3,0] + o_ik[0,3] <= 0
- constraint_34: xp_ik[0,3] + xp_ki[3,0] - 2 o_ik[0,3] <= 0
+ constraint_34: xp_ik[0,3] + xp_ki[3,0] - o_ik[0,3] <= 0
  constraint_35: - g_ik[0,3] - o_ik[0,3] - s_ik[0,3] <= -1
  constraint_35: g_ik[0,3] + o_ik[0,3] + 2 s_ik[0,3] <= 2
  constraint_34: - xp_ik[0,4] - xp_ki[4,0] + o_ik[0,4] <= 0
- constraint_34: xp_ik[0,4] + xp_ki[4,0] - 2 o_ik[0,4] <= 0
+ constraint_34: xp_ik[0,4] + xp_ki[4,0] - o_ik[0,4] <= 0
  constraint_35: - g_ik[0,4] - o_ik[0,4] - s_ik[0,4] <= -1
  constraint_35: g_ik[0,4] + o_ik[0,4] + 2 s_ik[0,4] <= 2
  constraint_34: - xp_ik[0,5] - xp_ki[5,0] + o_ik[0,5] <= 0
- constraint_34: xp_ik[0,5] + xp_ki[5,0] - 2 o_ik[0,5] <= 0
+ constraint_34: xp_ik[0,5] + xp_ki[5,0] - o_ik[0,5] <= 0
  constraint_35: - g_ik[0,5] - o_ik[0,5] - s_ik[0,5] <= -1
  constraint_35: g_ik[0,5] + o_ik[0,5] + 2 s_ik[0,5] <= 2
  constraint_34: - xp_ik[0,6] - xp_ki[6,0] + o_ik[0,6] <= 0
- constraint_34: xp_ik[0,6] + xp_ki[6,0] - 2 o_ik[0,6] <= 0
+ constraint_34: xp_ik[0,6] + xp_ki[6,0] - o_ik[0,6] <= 0
  constraint_35: - g_ik[0,6] - o_ik[0,6] - s_ik[0,6] <= -1
  constraint_35: g_ik[0,6] + o_ik[0,6] + 2 s_ik[0,6] <= 2
  constraint_34: - xp_ik[0,7] - xp_ki[7,0] + o_ik[0,7] <= 0
- constraint_34: xp_ik[0,7] + xp_ki[7,0] - 2 o_ik[0,7] <= 0
+ constraint_34: xp_ik[0,7] + xp_ki[7,0] - o_ik[0,7] <= 0
  constraint_35: - g_ik[0,7] - o_ik[0,7] - s_ik[0,7] <= -1
  constraint_35: g_ik[0,7] + o_ik[0,7] + 2 s_ik[0,7] <= 2
  constraint_34: - xp_ik[0,8] - xp_ki[8,0] + o_ik[0,8] <= 0
- constraint_34: xp_ik[0,8] + xp_ki[8,0] - 2 o_ik[0,8] <= 0
+ constraint_34: xp_ik[0,8] + xp_ki[8,0] - o_ik[0,8] <= 0
  constraint_35: - g_ik[0,8] - o_ik[0,8] - s_ik[0,8] <= -1
  constraint_35: g_ik[0,8] + o_ik[0,8] + 2 s_ik[0,8] <= 2
  constraint_34: - xp_ik[0,9] - xp_ki[9,0] + o_ik[0,9] <= 0
- constraint_34: xp_ik[0,9] + xp_ki[9,0] - 2 o_ik[0,9] <= 0
+ constraint_34: xp_ik[0,9] + xp_ki[9,0] - o_ik[0,9] <= 0
  constraint_35: - g_ik[0,9] - o_ik[0,9] - s_ik[0,9] <= -1
  constraint_35: g_ik[0,9] + o_ik[0,9] + 2 s_ik[0,9] <= 2
  constraint_34: - xp_ik[1,2] - xp_ki[2,1] + o_ik[1,2] <= 0
- constraint_34: xp_ik[1,2] + xp_ki[2,1] - 2 o_ik[1,2] <= 0
+ constraint_34: xp_ik[1,2] + xp_ki[2,1] - o_ik[1,2] <= 0
  constraint_35: - g_ik[1,2] - o_ik[1,2] - s_ik[1,2] <= -1
  constraint_35: g_ik[1,2] + o_ik[1,2] + 2 s_ik[1,2] <= 2
  constraint_34: - xp_ik[1,3] - xp_ki[3,1] + o_ik[1,3] <= 0
- constraint_34: xp_ik[1,3] + xp_ki[3,1] - 2 o_ik[1,3] <= 0
+ constraint_34: xp_ik[1,3] + xp_ki[3,1] - o_ik[1,3] <= 0
  constraint_35: - g_ik[1,3] - o_ik[1,3] - s_ik[1,3] <= -1
  constraint_35: g_ik[1,3] + o_ik[1,3] + 2 s_ik[1,3] <= 2
  constraint_34: - xp_ik[1,4] - xp_ki[4,1] + o_ik[1,4] <= 0
- constraint_34: xp_ik[1,4] + xp_ki[4,1] - 2 o_ik[1,4] <= 0
+ constraint_34: xp_ik[1,4] + xp_ki[4,1] - o_ik[1,4] <= 0
  constraint_35: - g_ik[1,4] - o_ik[1,4] - s_ik[1,4] <= -1
  constraint_35: g_ik[1,4] + o_ik[1,4] + 2 s_ik[1,4] <= 2
  constraint_34: - xp_ik[1,5] - xp_ki[5,1] + o_ik[1,5] <= 0
- constraint_34: xp_ik[1,5] + xp_ki[5,1] - 2 o_ik[1,5] <= 0
+ constraint_34: xp_ik[1,5] + xp_ki[5,1] - o_ik[1,5] <= 0
  constraint_35: - g_ik[1,5] - o_ik[1,5] - s_ik[1,5] <= -1
  constraint_35: g_ik[1,5] + o_ik[1,5] + 2 s_ik[1,5] <= 2
  constraint_34: - xp_ik[1,6] - xp_ki[6,1] + o_ik[1,6] <= 0
- constraint_34: xp_ik[1,6] + xp_ki[6,1] - 2 o_ik[1,6] <= 0
+ constraint_34: xp_ik[1,6] + xp_ki[6,1] - o_ik[1,6] <= 0
  constraint_35: - g_ik[1,6] - o_ik[1,6] - s_ik[1,6] <= -1
  constraint_35: g_ik[1,6] + o_ik[1,6] + 2 s_ik[1,6] <= 2
  constraint_34: - xp_ik[1,7] - xp_ki[7,1] + o_ik[1,7] <= 0
- constraint_34: xp_ik[1,7] + xp_ki[7,1] - 2 o_ik[1,7] <= 0
+ constraint_34: xp_ik[1,7] + xp_ki[7,1] - o_ik[1,7] <= 0
  constraint_35: - g_ik[1,7] - o_ik[1,7] - s_ik[1,7] <= -1
  constraint_35: g_ik[1,7] + o_ik[1,7] + 2 s_ik[1,7] <= 2
  constraint_34: - xp_ik[1,8] - xp_ki[8,1] + o_ik[1,8] <= 0
- constraint_34: xp_ik[1,8] + xp_ki[8,1] - 2 o_ik[1,8] <= 0
+ constraint_34: xp_ik[1,8] + xp_ki[8,1] - o_ik[1,8] <= 0
  constraint_35: - g_ik[1,8] - o_ik[1,8] - s_ik[1,8] <= -1
  constraint_35: g_ik[1,8] + o_ik[1,8] + 2 s_ik[1,8] <= 2
  constraint_34: - xp_ik[1,9] - xp_ki[9,1] + o_ik[1,9] <= 0
- constraint_34: xp_ik[1,9] + xp_ki[9,1] - 2 o_ik[1,9] <= 0
+ constraint_34: xp_ik[1,9] + xp_ki[9,1] - o_ik[1,9] <= 0
  constraint_35: - g_ik[1,9] - o_ik[1,9] - s_ik[1,9] <= -1
  constraint_35: g_ik[1,9] + o_ik[1,9] + 2 s_ik[1,9] <= 2
  constraint_34: - xp_ik[2,3] - xp_ki[3,2] + o_ik[2,3] <= 0
- constraint_34: xp_ik[2,3] + xp_ki[3,2] - 2 o_ik[2,3] <= 0
+ constraint_34: xp_ik[2,3] + xp_ki[3,2] - o_ik[2,3] <= 0
  constraint_35: - g_ik[2,3] - o_ik[2,3] - s_ik[2,3] <= -1
  constraint_35: g_ik[2,3] + o_ik[2,3] + 2 s_ik[2,3] <= 2
  constraint_34: - xp_ik[2,4] - xp_ki[4,2] + o_ik[2,4] <= 0
- constraint_34: xp_ik[2,4] + xp_ki[4,2] - 2 o_ik[2,4] <= 0
+ constraint_34: xp_ik[2,4] + xp_ki[4,2] - o_ik[2,4] <= 0
  constraint_35: - g_ik[2,4] - o_ik[2,4] - s_ik[2,4] <= -1
  constraint_35: g_ik[2,4] + o_ik[2,4] + 2 s_ik[2,4] <= 2
  constraint_34: - xp_ik[2,5] - xp_ki[5,2] + o_ik[2,5] <= 0
- constraint_34: xp_ik[2,5] + xp_ki[5,2] - 2 o_ik[2,5] <= 0
+ constraint_34: xp_ik[2,5] + xp_ki[5,2] - o_ik[2,5] <= 0
  constraint_35: - g_ik[2,5] - o_ik[2,5] - s_ik[2,5] <= -1
  constraint_35: g_ik[2,5] + o_ik[2,5] + 2 s_ik[2,5] <= 2
  constraint_34: - xp_ik[2,6] - xp_ki[6,2] + o_ik[2,6] <= 0
- constraint_34: xp_ik[2,6] + xp_ki[6,2] - 2 o_ik[2,6] <= 0
+ constraint_34: xp_ik[2,6] + xp_ki[6,2] - o_ik[2,6] <= 0
  constraint_35: - g_ik[2,6] - o_ik[2,6] - s_ik[2,6] <= -1
  constraint_35: g_ik[2,6] + o_ik[2,6] + 2 s_ik[2,6] <= 2
  constraint_34: - xp_ik[2,7] - xp_ki[7,2] + o_ik[2,7] <= 0
- constraint_34: xp_ik[2,7] + xp_ki[7,2] - 2 o_ik[2,7] <= 0
+ constraint_34: xp_ik[2,7] + xp_ki[7,2] - o_ik[2,7] <= 0
  constraint_35: - g_ik[2,7] - o_ik[2,7] - s_ik[2,7] <= -1
  constraint_35: g_ik[2,7] + o_ik[2,7] + 2 s_ik[2,7] <= 2
  constraint_34: - xp_ik[2,8] - xp_ki[8,2] + o_ik[2,8] <= 0
- constraint_34: xp_ik[2,8] + xp_ki[8,2] - 2 o_ik[2,8] <= 0
+ constraint_34: xp_ik[2,8] + xp_ki[8,2] - o_ik[2,8] <= 0
  constraint_35: - g_ik[2,8] - o_ik[2,8] - s_ik[2,8] <= -1
  constraint_35: g_ik[2,8] + o_ik[2,8] + 2 s_ik[2,8] <= 2
  constraint_34: - xp_ik[2,9] - xp_ki[9,2] + o_ik[2,9] <= 0
- constraint_34: xp_ik[2,9] + xp_ki[9,2] - 2 o_ik[2,9] <= 0
+ constraint_34: xp_ik[2,9] + xp_ki[9,2] - o_ik[2,9] <= 0
  constraint_35: - g_ik[2,9] - o_ik[2,9] - s_ik[2,9] <= -1
  constraint_35: g_ik[2,9] + o_ik[2,9] + 2 s_ik[2,9] <= 2
  constraint_34: - xp_ik[3,4] - xp_ki[4,3] + o_ik[3,4] <= 0
- constraint_34: xp_ik[3,4] + xp_ki[4,3] - 2 o_ik[3,4] <= 0
+ constraint_34: xp_ik[3,4] + xp_ki[4,3] - o_ik[3,4] <= 0
  constraint_35: - g_ik[3,4] - o_ik[3,4] - s_ik[3,4] <= -1
  constraint_35: g_ik[3,4] + o_ik[3,4] + 2 s_ik[3,4] <= 2
  constraint_34: - xp_ik[3,5] - xp_ki[5,3] + o_ik[3,5] <= 0
- constraint_34: xp_ik[3,5] + xp_ki[5,3] - 2 o_ik[3,5] <= 0
+ constraint_34: xp_ik[3,5] + xp_ki[5,3] - o_ik[3,5] <= 0
  constraint_35: - g_ik[3,5] - o_ik[3,5] - s_ik[3,5] <= -1
  constraint_35: g_ik[3,5] + o_ik[3,5] + 2 s_ik[3,5] <= 2
  constraint_34: - xp_ik[3,6] - xp_ki[6,3] + o_ik[3,6] <= 0
- constraint_34: xp_ik[3,6] + xp_ki[6,3] - 2 o_ik[3,6] <= 0
+ constraint_34: xp_ik[3,6] + xp_ki[6,3] - o_ik[3,6] <= 0
  constraint_35: - g_ik[3,6] - o_ik[3,6] - s_ik[3,6] <= -1
  constraint_35: g_ik[3,6] + o_ik[3,6] + 2 s_ik[3,6] <= 2
  constraint_34: - xp_ik[3,7] - xp_ki[7,3] + o_ik[3,7] <= 0
- constraint_34: xp_ik[3,7] + xp_ki[7,3] - 2 o_ik[3,7] <= 0
+ constraint_34: xp_ik[3,7] + xp_ki[7,3] - o_ik[3,7] <= 0
  constraint_35: - g_ik[3,7] - o_ik[3,7] - s_ik[3,7] <= -1
  constraint_35: g_ik[3,7] + o_ik[3,7] + 2 s_ik[3,7] <= 2
  constraint_34: - xp_ik[3,8] - xp_ki[8,3] + o_ik[3,8] <= 0
- constraint_34: xp_ik[3,8] + xp_ki[8,3] - 2 o_ik[3,8] <= 0
+ constraint_34: xp_ik[3,8] + xp_ki[8,3] - o_ik[3,8] <= 0
  constraint_35: - g_ik[3,8] - o_ik[3,8] - s_ik[3,8] <= -1
  constraint_35: g_ik[3,8] + o_ik[3,8] + 2 s_ik[3,8] <= 2
  constraint_34: - xp_ik[3,9] - xp_ki[9,3] + o_ik[3,9] <= 0
- constraint_34: xp_ik[3,9] + xp_ki[9,3] - 2 o_ik[3,9] <= 0
+ constraint_34: xp_ik[3,9] + xp_ki[9,3] - o_ik[3,9] <= 0
  constraint_35: - g_ik[3,9] - o_ik[3,9] - s_ik[3,9] <= -1
  constraint_35: g_ik[3,9] + o_ik[3,9] + 2 s_ik[3,9] <= 2
  constraint_34: - xp_ik[4,5] - xp_ki[5,4] + o_ik[4,5] <= 0
- constraint_34: xp_ik[4,5] + xp_ki[5,4] - 2 o_ik[4,5] <= 0
+ constraint_34: xp_ik[4,5] + xp_ki[5,4] - o_ik[4,5] <= 0
  constraint_35: - g_ik[4,5] - o_ik[4,5] - s_ik[4,5] <= -1
  constraint_35: g_ik[4,5] + o_ik[4,5] + 2 s_ik[4,5] <= 2
  constraint_34: - xp_ik[4,6] - xp_ki[6,4] + o_ik[4,6] <= 0
- constraint_34: xp_ik[4,6] + xp_ki[6,4] - 2 o_ik[4,6] <= 0
+ constraint_34: xp_ik[4,6] + xp_ki[6,4] - o_ik[4,6] <= 0
  constraint_35: - g_ik[4,6] - o_ik[4,6] - s_ik[4,6] <= -1
  constraint_35: g_ik[4,6] + o_ik[4,6] + 2 s_ik[4,6] <= 2
  constraint_34: - xp_ik[4,7] - xp_ki[7,4] + o_ik[4,7] <= 0
- constraint_34: xp_ik[4,7] + xp_ki[7,4] - 2 o_ik[4,7] <= 0
+ constraint_34: xp_ik[4,7] + xp_ki[7,4] - o_ik[4,7] <= 0
  constraint_35: - g_ik[4,7] - o_ik[4,7] - s_ik[4,7] <= -1
  constraint_35: g_ik[4,7] + o_ik[4,7] + 2 s_ik[4,7] <= 2
  constraint_34: - xp_ik[4,8] - xp_ki[8,4] + o_ik[4,8] <= 0
- constraint_34: xp_ik[4,8] + xp_ki[8,4] - 2 o_ik[4,8] <= 0
+ constraint_34: xp_ik[4,8] + xp_ki[8,4] - o_ik[4,8] <= 0
  constraint_35: - g_ik[4,8] - o_ik[4,8] - s_ik[4,8] <= -1
  constraint_35: g_ik[4,8] + o_ik[4,8] + 2 s_ik[4,8] <= 2
  constraint_34: - xp_ik[4,9] - xp_ki[9,4] + o_ik[4,9] <= 0
- constraint_34: xp_ik[4,9] + xp_ki[9,4] - 2 o_ik[4,9] <= 0
+ constraint_34: xp_ik[4,9] + xp_ki[9,4] - o_ik[4,9] <= 0
  constraint_35: - g_ik[4,9] - o_ik[4,9] - s_ik[4,9] <= -1
  constraint_35: g_ik[4,9] + o_ik[4,9] + 2 s_ik[4,9] <= 2
  constraint_34: - xp_ik[5,6] - xp_ki[6,5] + o_ik[5,6] <= 0
- constraint_34: xp_ik[5,6] + xp_ki[6,5] - 2 o_ik[5,6] <= 0
+ constraint_34: xp_ik[5,6] + xp_ki[6,5] - o_ik[5,6] <= 0
  constraint_35: - g_ik[5,6] - o_ik[5,6] - s_ik[5,6] <= -1
  constraint_35: g_ik[5,6] + o_ik[5,6] + 2 s_ik[5,6] <= 2
  constraint_34: - xp_ik[5,7] - xp_ki[7,5] + o_ik[5,7] <= 0
- constraint_34: xp_ik[5,7] + xp_ki[7,5] - 2 o_ik[5,7] <= 0
+ constraint_34: xp_ik[5,7] + xp_ki[7,5] - o_ik[5,7] <= 0
  constraint_35: - g_ik[5,7] - o_ik[5,7] - s_ik[5,7] <= -1
  constraint_35: g_ik[5,7] + o_ik[5,7] + 2 s_ik[5,7] <= 2
  constraint_34: - xp_ik[5,8] - xp_ki[8,5] + o_ik[5,8] <= 0
- constraint_34: xp_ik[5,8] + xp_ki[8,5] - 2 o_ik[5,8] <= 0
+ constraint_34: xp_ik[5,8] + xp_ki[8,5] - o_ik[5,8] <= 0
  constraint_35: - g_ik[5,8] - o_ik[5,8] - s_ik[5,8] <= -1
  constraint_35: g_ik[5,8] + o_ik[5,8] + 2 s_ik[5,8] <= 2
  constraint_34: - xp_ik[5,9] - xp_ki[9,5] + o_ik[5,9] <= 0
- constraint_34: xp_ik[5,9] + xp_ki[9,5] - 2 o_ik[5,9] <= 0
+ constraint_34: xp_ik[5,9] + xp_ki[9,5] - o_ik[5,9] <= 0
  constraint_35: - g_ik[5,9] - o_ik[5,9] - s_ik[5,9] <= -1
  constraint_35: g_ik[5,9] + o_ik[5,9] + 2 s_ik[5,9] <= 2
  constraint_34: - xp_ik[6,7] - xp_ki[7,6] + o_ik[6,7] <= 0
- constraint_34: xp_ik[6,7] + xp_ki[7,6] - 2 o_ik[6,7] <= 0
+ constraint_34: xp_ik[6,7] + xp_ki[7,6] - o_ik[6,7] <= 0
  constraint_35: - g_ik[6,7] - o_ik[6,7] - s_ik[6,7] <= -1
  constraint_35: g_ik[6,7] + o_ik[6,7] + 2 s_ik[6,7] <= 2
  constraint_34: - xp_ik[6,8] - xp_ki[8,6] + o_ik[6,8] <= 0
- constraint_34: xp_ik[6,8] + xp_ki[8,6] - 2 o_ik[6,8] <= 0
+ constraint_34: xp_ik[6,8] + xp_ki[8,6] - o_ik[6,8] <= 0
  constraint_35: - g_ik[6,8] - o_ik[6,8] - s_ik[6,8] <= -1
  constraint_35: g_ik[6,8] + o_ik[6,8] + 2 s_ik[6,8] <= 2
  constraint_34: - xp_ik[6,9] - xp_ki[9,6] + o_ik[6,9] <= 0
- constraint_34: xp_ik[6,9] + xp_ki[9,6] - 2 o_ik[6,9] <= 0
+ constraint_34: xp_ik[6,9] + xp_ki[9,6] - o_ik[6,9] <= 0
  constraint_35: - g_ik[6,9] - o_ik[6,9] - s_ik[6,9] <= -1
  constraint_35: g_ik[6,9] + o_ik[6,9] + 2 s_ik[6,9] <= 2
  constraint_34: - xp_ik[7,8] - xp_ki[8,7] + o_ik[7,8] <= 0
- constraint_34: xp_ik[7,8] + xp_ki[8,7] - 2 o_ik[7,8] <= 0
+ constraint_34: xp_ik[7,8] + xp_ki[8,7] - o_ik[7,8] <= 0
  constraint_35: - g_ik[7,8] - o_ik[7,8] - s_ik[7,8] <= -1
  constraint_35: g_ik[7,8] + o_ik[7,8] + 2 s_ik[7,8] <= 2
  constraint_34: - xp_ik[7,9] - xp_ki[9,7] + o_ik[7,9] <= 0
- constraint_34: xp_ik[7,9] + xp_ki[9,7] - 2 o_ik[7,9] <= 0
+ constraint_34: xp_ik[7,9] + xp_ki[9,7] - o_ik[7,9] <= 0
  constraint_35: - g_ik[7,9] - o_ik[7,9] - s_ik[7,9] <= -1
  constraint_35: g_ik[7,9] + o_ik[7,9] + 2 s_ik[7,9] <= 2
  constraint_34: - xp_ik[8,9] - xp_ki[9,8] + o_ik[8,9] <= 0
- constraint_34: xp_ik[8,9] + xp_ki[9,8] - 2 o_ik[8,9] <= 0
+ constraint_34: xp_ik[8,9] + xp_ki[9,8] - o_ik[8,9] <= 0
  constraint_35: - g_ik[8,9] - o_ik[8,9] - s_ik[8,9] <= -1
  constraint_35: g_ik[8,9] + o_ik[8,9] + 2 s_ik[8,9] <= 2
  constraint_36: p[0,0] - p[1,0] + s_ik[0,1] <= 1
@@ -1209,51 +1212,96 @@ Subject To
  constraint_38: - s_ik[7,9] + b_ikl[7,9,2] <= 0
  constraint_38: - s_ik[8,9] + b_ikl[8,9,1] <= 0
  constraint_38: - s_ik[8,9] + b_ikl[8,9,2] <= 0
- constraint_39: n_ik1[0,1] + n_ik3[0,1] + 2 b_ikl[0,1,1] <= 2
- constraint_39: n_ik1[0,2] + n_ik3[0,2] + 2 b_ikl[0,2,1] <= 2
- constraint_39: n_ik1[0,3] + n_ik3[0,3] + 2 b_ikl[0,3,1] <= 2
- constraint_39: n_ik1[0,4] + n_ik3[0,4] + 2 b_ikl[0,4,1] <= 2
- constraint_39: n_ik1[0,5] + n_ik3[0,5] + 2 b_ikl[0,5,1] <= 2
- constraint_39: n_ik1[0,6] + n_ik3[0,6] + 2 b_ikl[0,6,1] <= 2
- constraint_39: n_ik1[0,7] + n_ik3[0,7] + 2 b_ikl[0,7,1] <= 2
- constraint_39: n_ik1[0,8] + n_ik3[0,8] + 2 b_ikl[0,8,1] <= 2
- constraint_39: n_ik1[0,9] + n_ik3[0,9] + 2 b_ikl[0,9,1] <= 2
- constraint_39: n_ik1[1,2] + n_ik3[1,2] + 2 b_ikl[1,2,1] <= 2
- constraint_39: n_ik1[1,3] + n_ik3[1,3] + 2 b_ikl[1,3,1] <= 2
- constraint_39: n_ik1[1,4] + n_ik3[1,4] + 2 b_ikl[1,4,1] <= 2
- constraint_39: n_ik1[1,5] + n_ik3[1,5] + 2 b_ikl[1,5,1] <= 2
- constraint_39: n_ik1[1,6] + n_ik3[1,6] + 2 b_ikl[1,6,1] <= 2
- constraint_39: n_ik1[1,7] + n_ik3[1,7] + 2 b_ikl[1,7,1] <= 2
- constraint_39: n_ik1[1,8] + n_ik3[1,8] + 2 b_ikl[1,8,1] <= 2
- constraint_39: n_ik1[1,9] + n_ik3[1,9] + 2 b_ikl[1,9,1] <= 2
- constraint_39: n_ik1[2,3] + n_ik3[2,3] + 2 b_ikl[2,3,1] <= 2
- constraint_39: n_ik1[2,4] + n_ik3[2,4] + 2 b_ikl[2,4,1] <= 2
- constraint_39: n_ik1[2,5] + n_ik3[2,5] + 2 b_ikl[2,5,1] <= 2
- constraint_39: n_ik1[2,6] + n_ik3[2,6] + 2 b_ikl[2,6,1] <= 2
- constraint_39: n_ik1[2,7] + n_ik3[2,7] + 2 b_ikl[2,7,1] <= 2
- constraint_39: n_ik1[2,8] + n_ik3[2,8] + 2 b_ikl[2,8,1] <= 2
- constraint_39: n_ik1[2,9] + n_ik3[2,9] + 2 b_ikl[2,9,1] <= 2
- constraint_39: n_ik1[3,4] + n_ik3[3,4] + 2 b_ikl[3,4,1] <= 2
- constraint_39: n_ik1[3,5] + n_ik3[3,5] + 2 b_ikl[3,5,1] <= 2
- constraint_39: n_ik1[3,6] + n_ik3[3,6] + 2 b_ikl[3,6,1] <= 2
- constraint_39: n_ik1[3,7] + n_ik3[3,7] + 2 b_ikl[3,7,1] <= 2
- constraint_39: n_ik1[3,8] + n_ik3[3,8] + 2 b_ikl[3,8,1] <= 2
- constraint_39: n_ik1[3,9] + n_ik3[3,9] + 2 b_ikl[3,9,1] <= 2
- constraint_39: n_ik1[4,5] + n_ik3[4,5] + 2 b_ikl[4,5,1] <= 2
- constraint_39: n_ik1[4,6] + n_ik3[4,6] + 2 b_ikl[4,6,1] <= 2
- constraint_39: n_ik1[4,7] + n_ik3[4,7] + 2 b_ikl[4,7,1] <= 2
- constraint_39: n_ik1[4,8] + n_ik3[4,8] + 2 b_ikl[4,8,1] <= 2
- constraint_39: n_ik1[4,9] + n_ik3[4,9] + 2 b_ikl[4,9,1] <= 2
- constraint_39: n_ik1[5,6] + n_ik3[5,6] + 2 b_ikl[5,6,1] <= 2
- constraint_39: n_ik1[5,7] + n_ik3[5,7] + 2 b_ikl[5,7,1] <= 2
- constraint_39: n_ik1[5,8] + n_ik3[5,8] + 2 b_ikl[5,8,1] <= 2
- constraint_39: n_ik1[5,9] + n_ik3[5,9] + 2 b_ikl[5,9,1] <= 2
- constraint_39: n_ik1[6,7] + n_ik3[6,7] + 2 b_ikl[6,7,1] <= 2
- constraint_39: n_ik1[6,8] + n_ik3[6,8] + 2 b_ikl[6,8,1] <= 2
- constraint_39: n_ik1[6,9] + n_ik3[6,9] + 2 b_ikl[6,9,1] <= 2
- constraint_39: n_ik1[7,8] + n_ik3[7,8] + 2 b_ikl[7,8,1] <= 2
- constraint_39: n_ik1[7,9] + n_ik3[7,9] + 2 b_ikl[7,9,1] <= 2
- constraint_39: n_ik1[8,9] + n_ik3[8,9] + 2 b_ikl[8,9,1] <= 2
+ constraint_39: n_ik1[0,1] + b_ikl[0,1,1] <= 1
+ constraint_40: n_ik3[0,1] + b_ikl[0,1,2] <= 1
+ constraint_39: n_ik1[0,2] + b_ikl[0,2,1] <= 1
+ constraint_40: n_ik3[0,2] + b_ikl[0,2,2] <= 1
+ constraint_39: n_ik1[0,3] + b_ikl[0,3,1] <= 1
+ constraint_40: n_ik3[0,3] + b_ikl[0,3,2] <= 1
+ constraint_39: n_ik1[0,4] + b_ikl[0,4,1] <= 1
+ constraint_40: n_ik3[0,4] + b_ikl[0,4,2] <= 1
+ constraint_39: n_ik1[0,5] + b_ikl[0,5,1] <= 1
+ constraint_40: n_ik3[0,5] + b_ikl[0,5,2] <= 1
+ constraint_39: n_ik1[0,6] + b_ikl[0,6,1] <= 1
+ constraint_40: n_ik3[0,6] + b_ikl[0,6,2] <= 1
+ constraint_39: n_ik1[0,7] + b_ikl[0,7,1] <= 1
+ constraint_40: n_ik3[0,7] + b_ikl[0,7,2] <= 1
+ constraint_39: n_ik1[0,8] + b_ikl[0,8,1] <= 1
+ constraint_40: n_ik3[0,8] + b_ikl[0,8,2] <= 1
+ constraint_39: n_ik1[0,9] + b_ikl[0,9,1] <= 1
+ constraint_40: n_ik3[0,9] + b_ikl[0,9,2] <= 1
+ constraint_39: n_ik1[1,2] + b_ikl[1,2,1] <= 1
+ constraint_40: n_ik3[1,2] + b_ikl[1,2,2] <= 1
+ constraint_39: n_ik1[1,3] + b_ikl[1,3,1] <= 1
+ constraint_40: n_ik3[1,3] + b_ikl[1,3,2] <= 1
+ constraint_39: n_ik1[1,4] + b_ikl[1,4,1] <= 1
+ constraint_40: n_ik3[1,4] + b_ikl[1,4,2] <= 1
+ constraint_39: n_ik1[1,5] + b_ikl[1,5,1] <= 1
+ constraint_40: n_ik3[1,5] + b_ikl[1,5,2] <= 1
+ constraint_39: n_ik1[1,6] + b_ikl[1,6,1] <= 1
+ constraint_40: n_ik3[1,6] + b_ikl[1,6,2] <= 1
+ constraint_39: n_ik1[1,7] + b_ikl[1,7,1] <= 1
+ constraint_40: n_ik3[1,7] + b_ikl[1,7,2] <= 1
+ constraint_39: n_ik1[1,8] + b_ikl[1,8,1] <= 1
+ constraint_40: n_ik3[1,8] + b_ikl[1,8,2] <= 1
+ constraint_39: n_ik1[1,9] + b_ikl[1,9,1] <= 1
+ constraint_40: n_ik3[1,9] + b_ikl[1,9,2] <= 1
+ constraint_39: n_ik1[2,3] + b_ikl[2,3,1] <= 1
+ constraint_40: n_ik3[2,3] + b_ikl[2,3,2] <= 1
+ constraint_39: n_ik1[2,4] + b_ikl[2,4,1] <= 1
+ constraint_40: n_ik3[2,4] + b_ikl[2,4,2] <= 1
+ constraint_39: n_ik1[2,5] + b_ikl[2,5,1] <= 1
+ constraint_40: n_ik3[2,5] + b_ikl[2,5,2] <= 1
+ constraint_39: n_ik1[2,6] + b_ikl[2,6,1] <= 1
+ constraint_40: n_ik3[2,6] + b_ikl[2,6,2] <= 1
+ constraint_39: n_ik1[2,7] + b_ikl[2,7,1] <= 1
+ constraint_40: n_ik3[2,7] + b_ikl[2,7,2] <= 1
+ constraint_39: n_ik1[2,8] + b_ikl[2,8,1] <= 1
+ constraint_40: n_ik3[2,8] + b_ikl[2,8,2] <= 1
+ constraint_39: n_ik1[2,9] + b_ikl[2,9,1] <= 1
+ constraint_40: n_ik3[2,9] + b_ikl[2,9,2] <= 1
+ constraint_39: n_ik1[3,4] + b_ikl[3,4,1] <= 1
+ constraint_40: n_ik3[3,4] + b_ikl[3,4,2] <= 1
+ constraint_39: n_ik1[3,5] + b_ikl[3,5,1] <= 1
+ constraint_40: n_ik3[3,5] + b_ikl[3,5,2] <= 1
+ constraint_39: n_ik1[3,6] + b_ikl[3,6,1] <= 1
+ constraint_40: n_ik3[3,6] + b_ikl[3,6,2] <= 1
+ constraint_39: n_ik1[3,7] + b_ikl[3,7,1] <= 1
+ constraint_40: n_ik3[3,7] + b_ikl[3,7,2] <= 1
+ constraint_39: n_ik1[3,8] + b_ikl[3,8,1] <= 1
+ constraint_40: n_ik3[3,8] + b_ikl[3,8,2] <= 1
+ constraint_39: n_ik1[3,9] + b_ikl[3,9,1] <= 1
+ constraint_40: n_ik3[3,9] + b_ikl[3,9,2] <= 1
+ constraint_39: n_ik1[4,5] + b_ikl[4,5,1] <= 1
+ constraint_40: n_ik3[4,5] + b_ikl[4,5,2] <= 1
+ constraint_39: n_ik1[4,6] + b_ikl[4,6,1] <= 1
+ constraint_40: n_ik3[4,6] + b_ikl[4,6,2] <= 1
+ constraint_39: n_ik1[4,7] + b_ikl[4,7,1] <= 1
+ constraint_40: n_ik3[4,7] + b_ikl[4,7,2] <= 1
+ constraint_39: n_ik1[4,8] + b_ikl[4,8,1] <= 1
+ constraint_40: n_ik3[4,8] + b_ikl[4,8,2] <= 1
+ constraint_39: n_ik1[4,9] + b_ikl[4,9,1] <= 1
+ constraint_40: n_ik3[4,9] + b_ikl[4,9,2] <= 1
+ constraint_39: n_ik1[5,6] + b_ikl[5,6,1] <= 1
+ constraint_40: n_ik3[5,6] + b_ikl[5,6,2] <= 1
+ constraint_39: n_ik1[5,7] + b_ikl[5,7,1] <= 1
+ constraint_40: n_ik3[5,7] + b_ikl[5,7,2] <= 1
+ constraint_39: n_ik1[5,8] + b_ikl[5,8,1] <= 1
+ constraint_40: n_ik3[5,8] + b_ikl[5,8,2] <= 1
+ constraint_39: n_ik1[5,9] + b_ikl[5,9,1] <= 1
+ constraint_40: n_ik3[5,9] + b_ikl[5,9,2] <= 1
+ constraint_39: n_ik1[6,7] + b_ikl[6,7,1] <= 1
+ constraint_40: n_ik3[6,7] + b_ikl[6,7,2] <= 1
+ constraint_39: n_ik1[6,8] + b_ikl[6,8,1] <= 1
+ constraint_40: n_ik3[6,8] + b_ikl[6,8,2] <= 1
+ constraint_39: n_ik1[6,9] + b_ikl[6,9,1] <= 1
+ constraint_40: n_ik3[6,9] + b_ikl[6,9,2] <= 1
+ constraint_39: n_ik1[7,8] + b_ikl[7,8,1] <= 1
+ constraint_40: n_ik3[7,8] + b_ikl[7,8,2] <= 1
+ constraint_39: n_ik1[7,9] + b_ikl[7,9,1] <= 1
+ constraint_40: n_ik3[7,9] + b_ikl[7,9,2] <= 1
+ constraint_39: n_ik1[8,9] + b_ikl[8,9,1] <= 1
+ constraint_40: n_ik3[8,9] + b_ikl[8,9,2] <= 1
  constraint_43: - x_[0] + x_[1] - 300 n_ik1[0,1] <= 0
  constraint_45: x_[0]_ - x_[1]_ - 300 n_ik3[0,1] <= 0
  constraint_43: - x_[0] + x_[2] - 300 n_ik1[0,2] <= 0
@@ -1344,6 +1392,21 @@ Subject To
  constraint_45: x_[7]_ - x_[9]_ - 300 n_ik3[7,9] <= 0
  constraint_43: - x_[8] + x_[9] - 300 n_ik1[8,9] <= 0
  constraint_45: x_[8]_ - x_[9]_ - 300 n_ik3[8,9] <= 0
+ constraint_51: s_ik[1,0] + s_ik[2,0] + s_ik[3,0] + s_ik[4,0] + s_ik[5,0]
+   + s_ik[6,0] + s_ik[7,0] + s_ik[8,0] + s_ik[9,0] <= 10
+ constraint_51: s_ik[2,1] + s_ik[3,1] + s_ik[4,1] + s_ik[5,1] + s_ik[6,1]
+   + s_ik[7,1] + s_ik[8,1] + s_ik[9,1] <= 10
+ constraint_51: s_ik[3,2] + s_ik[4,2] + s_ik[5,2] + s_ik[6,2] + s_ik[7,2]
+   + s_ik[8,2] + s_ik[9,2] <= 10
+ constraint_51: s_ik[4,3] + s_ik[5,3] + s_ik[6,3] + s_ik[7,3] + s_ik[8,3]
+   + s_ik[9,3] <= 0
+ constraint_51: s_ik[5,4] + s_ik[6,4] + s_ik[7,4] + s_ik[8,4] + s_ik[9,4]
+   <= 0
+ constraint_51: s_ik[6,5] + s_ik[7,5] + s_ik[8,5] + s_ik[9,5] <= 10
+ constraint_51: s_ik[7,6] + s_ik[8,6] + s_ik[9,6] <= 10
+ constraint_51: s_ik[8,7] + s_ik[9,7] <= 10
+ constraint_51: s_ik[9,8] <= 10
+ constraint_51: <= 10
 Bounds
  a[0] <= 46500
  a[1] <= 46500
@@ -1492,14 +1555,22 @@ Binaries
  o_ik[2,4] o_ik[2,5] o_ik[2,6] o_ik[2,7] o_ik[2,8] o_ik[2,9] o_ik[3,4]
  o_ik[3,5] o_ik[3,6] o_ik[3,7] o_ik[3,8] o_ik[3,9] o_ik[4,5] o_ik[4,6]
  o_ik[4,7] o_ik[4,8] o_ik[4,9] o_ik[5,6] o_ik[5,7] o_ik[5,8] o_ik[5,9]
- o_ik[6,7] o_ik[6,8] o_ik[6,9] o_ik[7,8] o_ik[7,9] o_ik[8,9] s_ik[0,1]
- s_ik[0,2] s_ik[0,3] s_ik[0,4] s_ik[0,5] s_ik[0,6] s_ik[0,7] s_ik[0,8]
- s_ik[0,9] s_ik[1,2] s_ik[1,3] s_ik[1,4] s_ik[1,5] s_ik[1,6] s_ik[1,7]
- s_ik[1,8] s_ik[1,9] s_ik[2,3] s_ik[2,4] s_ik[2,5] s_ik[2,6] s_ik[2,7]
- s_ik[2,8] s_ik[2,9] s_ik[3,4] s_ik[3,5] s_ik[3,6] s_ik[3,7] s_ik[3,8]
- s_ik[3,9] s_ik[4,5] s_ik[4,6] s_ik[4,7] s_ik[4,8] s_ik[4,9] s_ik[5,6]
- s_ik[5,7] s_ik[5,8] s_ik[5,9] s_ik[6,7] s_ik[6,8] s_ik[6,9] s_ik[7,8]
- s_ik[7,9] s_ik[8,9] n_ik1[0,1] n_ik1[0,2] n_ik1[0,3] n_ik1[0,4] n_ik1[0,5]
+ o_ik[6,7] o_ik[6,8] o_ik[6,9] o_ik[7,8] o_ik[7,9] o_ik[8,9] s_ik[0,0]
+ s_ik[0,1] s_ik[0,2] s_ik[0,3] s_ik[0,4] s_ik[0,5] s_ik[0,6] s_ik[0,7]
+ s_ik[0,8] s_ik[0,9] s_ik[1,0] s_ik[1,1] s_ik[1,2] s_ik[1,3] s_ik[1,4]
+ s_ik[1,5] s_ik[1,6] s_ik[1,7] s_ik[1,8] s_ik[1,9] s_ik[2,0] s_ik[2,1]
+ s_ik[2,2] s_ik[2,3] s_ik[2,4] s_ik[2,5] s_ik[2,6] s_ik[2,7] s_ik[2,8]
+ s_ik[2,9] s_ik[3,0] s_ik[3,1] s_ik[3,2] s_ik[3,3] s_ik[3,4] s_ik[3,5]
+ s_ik[3,6] s_ik[3,7] s_ik[3,8] s_ik[3,9] s_ik[4,0] s_ik[4,1] s_ik[4,2]
+ s_ik[4,3] s_ik[4,4] s_ik[4,5] s_ik[4,6] s_ik[4,7] s_ik[4,8] s_ik[4,9]
+ s_ik[5,0] s_ik[5,1] s_ik[5,2] s_ik[5,3] s_ik[5,4] s_ik[5,5] s_ik[5,6]
+ s_ik[5,7] s_ik[5,8] s_ik[5,9] s_ik[6,0] s_ik[6,1] s_ik[6,2] s_ik[6,3]
+ s_ik[6,4] s_ik[6,5] s_ik[6,6] s_ik[6,7] s_ik[6,8] s_ik[6,9] s_ik[7,0]
+ s_ik[7,1] s_ik[7,2] s_ik[7,3] s_ik[7,4] s_ik[7,5] s_ik[7,6] s_ik[7,7]
+ s_ik[7,8] s_ik[7,9] s_ik[8,0] s_ik[8,1] s_ik[8,2] s_ik[8,3] s_ik[8,4]
+ s_ik[8,5] s_ik[8,6] s_ik[8,7] s_ik[8,8] s_ik[8,9] s_ik[9,0] s_ik[9,1]
+ s_ik[9,2] s_ik[9,3] s_ik[9,4] s_ik[9,5] s_ik[9,6] s_ik[9,7] s_ik[9,8]
+ s_ik[9,9] n_ik1[0,1] n_ik1[0,2] n_ik1[0,3] n_ik1[0,4] n_ik1[0,5]
  n_ik1[0,6] n_ik1[0,7] n_ik1[0,8] n_ik1[0,9] n_ik1[1,2] n_ik1[1,3]
  n_ik1[1,4] n_ik1[1,5] n_ik1[1,6] n_ik1[1,7] n_ik1[1,8] n_ik1[1,9]
  n_ik1[2,3] n_ik1[2,4] n_ik1[2,5] n_ik1[2,6] n_ik1[2,7] n_ik1[2,8]
@@ -1556,5 +1627,6 @@ Binaries
  m_ik[2,6] m_ik[2,7] m_ik[2,8] m_ik[2,9] m_ik[3,4] m_ik[3,5] m_ik[3,6]
  m_ik[3,7] m_ik[3,8] m_ik[3,9] m_ik[4,5] m_ik[4,6] m_ik[4,7] m_ik[4,8]
  m_ik[4,9] m_ik[5,6] m_ik[5,7] m_ik[5,8] m_ik[5,9] m_ik[6,7] m_ik[6,8]
- m_ik[6,9] m_ik[7,8] m_ik[7,9] m_ik[8,9]
+ m_ik[6,9] m_ik[7,8] m_ik[7,9] m_ik[8,9] f[0] f[1] f[2] f[3] f[4] f[5] f[6]
+ f[7] f[8] f[9]
 End
