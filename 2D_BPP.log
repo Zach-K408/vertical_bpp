@@ -998,3 +998,168 @@ Solution count 0
 
 Model is infeasible
 Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Mon May  1 17:37:23 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 10.0.1 (win64) logging started Mon May  1 17:38:50 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 10.0.1 (win64) logging started Mon May  1 17:40:07 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 10.0.1 (win64) logging started Mon May  1 17:42:09 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 10.0.1 (win64) logging started Mon May  1 17:44:25 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 12:03:39 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1259 rows, 886 columns and 4020 nonzeros
+Model fingerprint: 0x9efbb9e9
+Variable types: 87 continuous, 799 integer (799 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 98 rows and 176 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 12:04:22 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1259 rows, 886 columns and 4020 nonzeros
+Model fingerprint: 0x9efbb9e9
+Variable types: 87 continuous, 799 integer (799 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 98 rows and 176 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 12:05:13 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1259 rows, 886 columns and 4020 nonzeros
+Model fingerprint: 0x9efbb9e9
+Variable types: 87 continuous, 799 integer (799 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 98 rows and 176 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 10.0.1 (win64) logging started Wed May  3 12:07:40 2023
+
+Set parameter LogFile to value "2D_BPP.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1259 rows, 886 columns and 4020 nonzeros
+Model fingerprint: 0x6bcd958e
+Variable types: 87 continuous, 799 integer (799 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+04]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 814 rows and 609 columns
+Presolve time: 0.02s
+Presolved: 445 rows, 277 columns, 1318 nonzeros
+Variable types: 83 continuous, 194 integer (194 binary)
+
+Root relaxation: objective -3.668900e+04, 51 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -36689.000    0    5          - -36689.000      -     -    0s
+H    0     0                    -36689.00000 -36689.000  0.00%     -    0s
+     0     0 -36689.000    0    5 -36689.000 -36689.000  0.00%     -    0s
+
+Explored 1 nodes (51 simplex iterations) in 0.08 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: -36689 
+No other solutions better than -36689
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective -3.668900000000e+04, best bound -3.668900000000e+04, gap 0.0000%

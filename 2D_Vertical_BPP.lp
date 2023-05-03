@@ -1401,8 +1401,10 @@ Subject To
    + s_ik[5,8] + s_ik[6,8] + s_ik[7,8] + s_ik[9,8] <= 10
  constraint_51: s_ik[0,9] + s_ik[1,9] + s_ik[2,9] + s_ik[3,9] + s_ik[4,9]
    + s_ik[5,9] + s_ik[6,9] + s_ik[7,9] + s_ik[8,9] <= 10
- constraint_52: [ ] = 0
- constraint_52: [ ] = 0
+ constraint_52: - 10 c_j[0] <= 0
+ constraint_52: 10 c_j[0] <= 10
+ constraint_52: - 10 c_j[1] <= 0
+ constraint_52: 10 c_j[1] <= 10
 Bounds
  a[0] <= 46500
  a[1] <= 46500
@@ -1621,5 +1623,5 @@ Binaries
  m_ik[2,6] m_ik[2,7] m_ik[2,8] m_ik[2,9] m_ik[3,4] m_ik[3,5] m_ik[3,6]
  m_ik[3,7] m_ik[3,8] m_ik[3,9] m_ik[4,5] m_ik[4,6] m_ik[4,7] m_ik[4,8]
  m_ik[4,9] m_ik[5,6] m_ik[5,7] m_ik[5,8] m_ik[5,9] m_ik[6,7] m_ik[6,8]
- m_ik[6,9] m_ik[7,8] m_ik[7,9] m_ik[8,9]
+ m_ik[6,9] m_ik[7,8] m_ik[7,9] m_ik[8,9] c_j[0] c_j[1]
 End
