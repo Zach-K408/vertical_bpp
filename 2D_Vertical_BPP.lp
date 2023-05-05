@@ -162,11 +162,11 @@ Subject To
  constraint_26_modified: 16 g_i[4] + b_ikl[4,0,1] + b_ikl[4,0,2]
    + b_ikl[4,1,1] + b_ikl[4,1,2] + b_ikl[4,2,1] + b_ikl[4,2,2]
    + b_ikl[4,3,1] + b_ikl[4,3,2] >= 2
- constraint_27: z_i[0] + 155 g_i[0] <= 160
- constraint_27: z_i[1] + 155 g_i[1] <= 160
- constraint_27: z_i[2] + 155 g_i[2] <= 160
- constraint_27: z_i[3] + 155 g_i[3] <= 160
- constraint_27: z_i[4] + 155 g_i[4] <= 160
+ constraint_27: z_i[0] + 155 g_i[0] <= 155
+ constraint_27: z_i[1] + 155 g_i[1] <= 155
+ constraint_27: z_i[2] + 155 g_i[2] <= 155
+ constraint_27: z_i[3] + 155 g_i[3] <= 155
+ constraint_27: z_i[4] + 155 g_i[4] <= 155
  constraint_28: - z_i[0] + z_i_[1] - v_ik[0,1] <= 0
  constraint_29: z_i[0] - z_i_[1] - v_ik[0,1] <= 0
  constraint_30: z_i[0] - z_i_[1] + v_ik[0,1] + 310 m_ik[0,1] <= 310
